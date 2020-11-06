@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Article;
 use Cache;
+<<<<<<< HEAD
 use Gate;
 class ArticleController extends Controller
 {
@@ -16,6 +17,10 @@ class ArticleController extends Controller
         abort(403, 'Anda tidak memiliki cukup hak akses');
         });
     }
+=======
+class ArticleController extends Controller
+{
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
     public function index()
     {
         $article = Article::all();

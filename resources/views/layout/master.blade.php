@@ -24,6 +24,7 @@
 
     <!-- Page Content -->
     <div class="container">
+<<<<<<< HEAD
     <div class="row">
  
       
@@ -33,6 +34,17 @@
 
     </div>
     <!-- /.row -->
+=======
+
+        <div class="row">
+
+        @yield('content')
+
+        @include('layout.sidebar')
+
+        </div>
+        <!-- /.row -->
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
 
     </div>
     <!-- /.container -->

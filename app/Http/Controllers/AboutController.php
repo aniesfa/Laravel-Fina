@@ -17,8 +17,11 @@ class AboutController extends Controller
     public function about(){  
         return view('about');
     }
+<<<<<<< HEAD
     public function __construct()
     {
         $this->middleware('auth');
     }
+=======
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
 }

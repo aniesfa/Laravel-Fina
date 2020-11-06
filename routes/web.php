@@ -3,7 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', 'HomeController');
+<<<<<<< HEAD
 Route::get('/about', 'AboutController@about')->name('about');
+=======
+Route::get('/about', 'AboutController@about');
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
 Route::get('/article/{id}', 'ArticleController@article');
 
 Auth::routes();

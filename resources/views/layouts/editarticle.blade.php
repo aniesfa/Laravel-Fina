@@ -9,6 +9,7 @@
             </br>
             </br>
             <form action="/article/update/{{$article->id}}" method="post">
+<<<<<<< HEAD
             <form action="/article/update/{{$article->id}}" method="post">
  {{csrf_field()}}
  enctype="multipart/form-data">
@@ -46,6 +47,26 @@
  </div>
  <button type="submit" name="edit" class="btn btnprimary float-right">Ubah Data</button>
  <img width="150px" src="{{asset('storage/'.$article->featured_image)}}">
+=======
+ {{csrf_field()}}
+ <input type="hidden" name="id" value="{{$article->id}}"></br>
+ <div class="form-group">
+ <label for="title">Judul</label>
+ <input type="text" class="form-control"
+required="required" name="title" value="{{$article->title}}"></br>
+ </div>
+ <div class="form-group">
+ <label for="content">Content</label>
+ <input type="text" class="form-control"
+required="required" name="content" value="{{$article->content}}"></br>
+ </div>
+ <div class="form-group">
+ <label for="image">Feature Image</label>
+ <input type="text" class="form-control"
+required="required" name="image" value="{{$article->featured_image}}"></br>
+ </div>
+ <button type="submit" name="edit" class="btn btnprimary float-right">Ubah Data</button>
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
  </form>
  </div>
  </div>

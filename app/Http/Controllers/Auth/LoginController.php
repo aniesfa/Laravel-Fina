@@ -26,6 +26,10 @@ class LoginController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
     //protected $redirectTo = RouteServiceProvider::HOME;
     public function redirectTo()
     {
@@ -35,6 +39,13 @@ class LoginController extends Controller
         ];
         return $this->redirectTo = route($for[auth()->user()->roles]);
     }
+<<<<<<< HEAD
+=======
+=======
+    protected $redirectTo = RouteServiceProvider::HOME;
+
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
     /**
      * Create a new controller instance.
      *

@@ -139,7 +139,10 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
+<<<<<<< HEAD
         Barryvdh\DomPDF\ServiceProvider::class,
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
@@ -191,7 +194,10 @@ return [
 
     'aliases' => [
 
+<<<<<<< HEAD
         'PDF' => Barryvdh\DomPDF\Facade::class,
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,

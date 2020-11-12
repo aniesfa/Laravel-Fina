@@ -31,9 +31,12 @@
                     <td>
                         <a href="article/delete/{{ $a->id }}" class="badge badgedanger">Hapus</a>
                     </td>
+<<<<<<< HEAD
                     </td>
                     <a href="/article/cetak_pdf" class="btn btn-primary" target="_blank">CETAK PDF</a>
                     </td>
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
                 </tr>
  @endforeach
  </tbody>

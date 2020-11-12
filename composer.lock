@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "502c0c3e76ba6b8b29c5da34b9782307",
     "packages": [
         {
@@ -69,6 +70,11 @@
             "time": "2020-09-07T11:50:18+00:00"
         },
         {
+=======
+    "content-hash": "1a0e68d89b3d2269583d956d8250fb08",
+    "packages": [
+        {
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
             "source": {
@@ -269,6 +275,7 @@
             "time": "2020-05-25T17:44:05+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "dompdf/dompdf",
             "version": "v0.8.6",
             "source": {
@@ -337,6 +344,8 @@
             "time": "2020-08-30T22:54:22+00:00"
         },
         {
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             "name": "dragonmantank/cron-expression",
             "version": "v2.3.0",
             "source": {
@@ -1291,6 +1300,7 @@
             "time": "2018-07-02T15:55:56+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "phenx/php-font-lib",
             "version": "0.5.2",
             "source": {
@@ -1368,6 +1378,8 @@
             "time": "2019-09-11T20:02:13+00:00"
         },
         {
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             "name": "phpoption/phpoption",
             "version": "1.7.5",
             "source": {
@@ -1736,6 +1748,7 @@
             "time": "2020-02-21T04:36:14+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "sabberworm/php-css-parser",
             "version": "8.3.1",
             "source": {
@@ -1781,6 +1794,8 @@
             "time": "2020-06-01T09:10:00+00:00"
         },
         {
+=======
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.3",
             "source": {

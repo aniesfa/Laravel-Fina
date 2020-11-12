@@ -3,8 +3,16 @@
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', 'HomeController');
+<<<<<<< HEAD
 Route::get('/article/cetak_pdf', 'ArticleController@cetak_pdf');
 Route::get('/about', 'AboutController@about')->name('about');
+=======
+<<<<<<< HEAD
+Route::get('/about', 'AboutController@about')->name('about');
+=======
+Route::get('/about', 'AboutController@about');
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
 Route::get('/article/{id}', 'ArticleController@article');
 
 Auth::routes();

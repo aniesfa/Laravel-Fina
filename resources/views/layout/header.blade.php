@@ -7,6 +7,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             <li class="nav-item {{ Route::is('home') ? 'active' : '' }}">
             @can('user-display')
                 <a class="nav-link" href="{{url('/')}}">Home
@@ -23,6 +27,21 @@
                 @can('manage-articles')
                 <a class="nav-link" href="/manage">Kelola</a>
                 @endcan
+<<<<<<< HEAD
+=======
+=======
+            <li class="nav-item active">
+                <a class="nav-link" href="{{url('/')}}">Home
+                <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('about')}}">About</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/manage">Kelola</a>
+>>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
+>>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
             </li>
             <li class="nav-item dropdown">
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

@@ -130,7 +130,7 @@ return [
     |
     | The service providers listed here will be automatically loaded on the
     | request to your application. Feel free to add your own services to
-    | this array to grant expanded functionality to your applications.
+    | this array to grant expanded functionality to your applications.ga tau yang pas aku buka moro keluar gitu, padahal kmren ga ad yang yaudh hapus aj mungkin yang
     |
     */
 
@@ -139,10 +139,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-<<<<<<< HEAD
         Barryvdh\DomPDF\ServiceProvider::class,
-=======
->>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
@@ -194,10 +191,8 @@ return [
 
     'aliases' => [
 
-<<<<<<< HEAD
         'PDF' => Barryvdh\DomPDF\Facade::class,
-=======
->>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
+
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,

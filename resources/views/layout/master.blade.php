@@ -24,10 +24,7 @@
 
     <!-- Page Content -->
     <div class="container">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
+
     <div class="row">
  
       
@@ -37,9 +34,6 @@
 
     </div>
     <!-- /.row -->
-<<<<<<< HEAD
-=======
-=======
 
         <div class="row">
 
@@ -49,8 +43,7 @@
 
         </div>
         <!-- /.row -->
->>>>>>> 980579bac7eb96edd8082b6673a9344395b87fb6
->>>>>>> 3365f423b9611a4e007e66a73c6179538db30b6c
+
 
     </div>
     <!-- /.container -->
